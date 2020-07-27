@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="LibVLCTest.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LibVLCTest"
+    xmlns:vm="using:LibVLCTest"
+    >
+    <Application.Resources>
+        <local:ViewModelLocator xmlns="using:OneDrive_Cloud_Player.ViewModels" x:Key="Locator" />
+    </Application.Resources>
+</Application>
